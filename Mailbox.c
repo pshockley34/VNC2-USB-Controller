@@ -16,10 +16,6 @@
 #include "vos.h"
 #include "HelloWorld.h"
 
-//mailbox variables (not needed if we send name straight to UART after read)
-//char inputArray[60][60];
-//char* names[60];
-
 vos_tcb_t* tcbFIRMWARE;
 
 void firmware();
