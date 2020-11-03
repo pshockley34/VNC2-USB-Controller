@@ -264,11 +264,11 @@ void firmware() {
 				letter = fgetc(stream);                     // Read character from file
 				if (letter == 0xA) continue;                // 0xA is new line in hex, skip new line characters
 				if (letter == 0xD) {                        // 0xD is carriage return in hex, so you know when the full name is read
-					for (i = index; i < 60; ++i) {          // For some reason this IDE initializes all strings to be vos- repeating.
-						name[i] = '\0';                     // This loop changes the remaining vos-'s in the string to empty characters.
+					for (i = index; i < 60; ++i) {      // For some reason this IDE initializes all strings to be vos- repeating.
+						name[i] = '\0';             // This loop changes the remaining vos-'s in the string to empty characters.
 					}
-					printf("%s", name);                     // Send name to Microcontroller through UART   
-					index = 0;                              // Reset index for next name
+					printf("%s", name);                 // Send name to Microcontroller through UART   
+					index = 0;                          // Reset index for next name
 					continue;
 				}
 				name[index] = letter;                       // Place character in name
