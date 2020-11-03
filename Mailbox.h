@@ -1,7 +1,6 @@
 /*
   Header file for Mailbox.c
 */
-#include "vos.h"
 
 /* FTDI:SHF Header Files */
 #include "USB.h"
