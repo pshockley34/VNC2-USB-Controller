@@ -1,14 +1,5 @@
 /*
-** Filename: HelloWorld.h
-**
-** Automatically created by Application Wizard 1.2.4.1
-**
-** Part of solution Samples in project HelloWorld
-**
-** Comments:
-**
-** Important: Sections between markers "FTDI:S*" and "FTDI:E*" will be overwritten by
-** the Application Wizard
+  Header file for Mailbox.c
 */
 #include "vos.h"
 
