@@ -14,7 +14,7 @@
 */
 	
 #include "vos.h"
-#include "HelloWorld.h"
+#include "Mailbox.h"
 
 vos_tcb_t* tcbFIRMWARE;
 
